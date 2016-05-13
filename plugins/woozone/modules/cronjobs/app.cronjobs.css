@@ -1,0 +1,54 @@
+/* Cronjobs module */
+.wwcAmzAff-form .wwcAmzAff-form-row.wwcAmzAff-cj-help {
+	padding-top: 10px;	
+}
+
+.wwcAmzAff-cj-list #wwcAmzAff-cj-table .wwcAmzAff-row-loading-marker {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    padding: 0;
+}
+.wwcAmzAff-cj-list #wwcAmzAff-cj-table .wwcAmzAff-row-loading {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	margin-left: -10px;
+	margin-top: -12px;
+	padding: 0px;
+	background-color: #484848;
+	background-color: rgba(207, 222, 247, 0.8);
+}
+
+.wwcAmzAff-cj-list {
+	position: relative;
+}
+	.wwcAmzAff-cj-list #wwcAmzAff-main-loading {
+		top: 0;
+		left: 0;
+	}
+		.wwcAmzAff-cj-list #wwcAmzAff-main-loading #wwcAmzAff-loading-box {
+			top: 50px;
+		}
+.wwcAmzAff-cj-list #wwcAmzAff-cj-reload {
+	float: right;
+	margin-bottom: 5px;
+}
+.wwcAmzAff-cj-list #wwcAmzAff-cj-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+	.wwcAmzAff-cj-list #wwcAmzAff-cj-table, #wwcAmzAff-cj-table th, #wwcAmzAff-cj-table td {
+		border: 1px solid green;
+		text-align: left;
+		vertical-align: bottom;
+	}
+	.wwcAmzAff-cj-list #wwcAmzAff-cj-table th, #wwcAmzAff-cj-table td {
+		padding: 5px;
+	}
+	.wwcAmzAff-cj-list #wwcAmzAff-cj-table tr.cut td:first-child {
+		text-decoration: line-through;
+	}

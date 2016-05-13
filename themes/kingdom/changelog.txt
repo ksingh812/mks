@@ -1,0 +1,78 @@
+What's new in 1.6.2
+[19.01.2016]
+[UPDATE]: Added WooCommerce 2.5.0 compatibility
+
+What's new in 1.6.1
+[15.12.2015]
+[FIX]: Issue with image upload fixed
+
+What's new in 1.6
+[13.11.2015]
+[UPDATE]: Revolution Slider updated to the latest version 5.1.1
+[FIX]: jQuery compatibility with newest versions of Revolution Slider
+
+What's new in 1.5.9.1
+[11.11.2015]
+[UPDATE]: WooCommerce templates updated to the latest version of WooCommerce 2.4.10
+[FIX]: The Latest Posts Shortcode now sorts the posts from new to old
+
+What's new in 1.5.9
+[04.09.2015]
+[FIX]: An issue with the dropdown submenu
+[FIX]: "Related products" text overlapping the slider buttons
+[FIX]: Some issues on responsive
+[FIX]: Esthetic touches about the prices in products listing
+[FIX]: View cart page - "Calculate shipping rate" overlapping when right sidebar was enabled
+
+What's new in 1.5.8
+[29.06.2015]
+- prettyPhoto (3.1.6) fix
+- option to choose general description type, for frontend - single product page: you can found it in the plugin menu/ Layout / Shop tab - "Product details general description uses"
+- fixed "social icons" bug: you must enter an url (social network icon will not be displayed in the frontend for the # or empty string) in the plugin menu / Layout / Social Setup tab - url for each network
+
+[6.04.2015]
+[FIX]: Sidebar deletion in Sidebars manager now working
+
+[16.03.2015]
+[FIX]: Partners Module is now displaying only when is activated
+
+What`s new in 1.5.3:
+[24.02.2015]
+[UPDATE]: Added support for child theme
+
+[23.02.2015]
+[UPDATE]: New mobile menu added
+[FIX]: Cart items no. is displaying the proper number of items on cart refresh.
+
+What`s new in 1.5.2:
+[UPDATE]: Added WooCommerce 2.3.3 compatibility
+
+[11.02.2015]
+[FIX]: Fixed the revolution slider issue on search results page (archive) - slider shortcode still displaying even if it`s not set
+
+[09.02.2015]
+[FIX]: Fixed the partners logo box overlay when image is higher than 70px
+
+[03.02.2015]
+[FIX]: Fixed the home_slider warning in header when a slider is not set
+
+What`s new in 1.5.1:
+[30.01.2015]
+[FIX]: Fixed the dynamic sidebar module which was not displaying.
+
+What`s new in 1.5:
+[28.01.2015]
+[FIX]: Fixed the vertical spacing on static pages when listing woocommerce products shortcode
+
+What`s new in 1.4:
+[UPDATE]: Added new feature - the user now has the ability to set the number of products per page in product category pages
+
+Bugfixes in 1.4:
+[FIX]: The theme no longer hangs in activation mode
+[FIX]: The blog slider in homepage outputs the correct date and number of comments
+[FIX]: Front page sidebar is showing correctly
+[FIX]: On blog details page the date and number of comments are displayed correctly
+[FIX]: The shortcodes plugin now works correctly
+[FIX]: Fixed some css issues
+[FIX]: The cart now auto-updates on frontpage
+[FIX]: The theme no longer causes Woocommerce v.2.2 template issues

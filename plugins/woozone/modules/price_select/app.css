@@ -1,0 +1,97 @@
+div#wwcAmzAff-ajaxLoadingBox-auto {
+	background: #fff url("assets/ajax-loader.gif") no-repeat 10px center;
+	background-color: #484848;
+	background-color: rgba(255, 255, 255, 0.8);/*rgba(207, 222, 247, 0.8);*/
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+div#wwcAmzAff-ajaxLoadingBox-auto > div {
+	width: 60px;
+	position: absolute;
+	top: 56%;
+	left: 35px;
+	margin-top: -20px;
+}
+		
+.wwcAmzAffPriceSelectButtons {
+	position: relative;	
+}
+
+.wwcAmzAff_price .wwcAmzAffPriceSelectButtons input {
+	width:30% !important;
+	margin-bottom: 5px !important;
+	float: left !important;
+}
+.wwcAmzAff_price .wwcAmzAffPriceSelectButtons ul li > label {
+	width:90% !important;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+	padding:0 2px 0 2px;
+}
+
+
+.wwcAmzAff-priceselect-wrapper {
+	margin-left: 7px;
+	float: left !important;
+}
+	.wwcAmzAff-priceselect-wrapper a {
+		text-decoration: none;
+		padding: 2px 3px;
+	}
+	
+	.wwcAmzAffPriceSelectWrapper {
+		margin: 15px 0px;
+	}
+	
+	#wwcAmzAffPriceSelect {
+	}
+	#wwcAmzAffPriceSelect > label {
+		text-decoration: underline;
+	}
+		#wwcAmzAffPriceSelect ul {
+			list-style: none;
+			padding: 0px;
+		}
+			#wwcAmzAffPriceSelect ul > li,
+			#wwcAmzAffPriceSelect ul > label {
+        		margin-left: 30px;
+      			padding: 3px 0px 0px;
+      		}
+      		#wwcAmzAffPriceSelect ul label {
+				font-style: italic;
+				font-weight: normal;
+				vertical-align: top;
+      		}
+      		#wwcAmzAffPriceSelect > ul > li,
+      		#wwcAmzAffPriceSelect > ul > label {
+      			margin-left: 0px;
+      		}
+			
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price {
+				font-weight: bold;
+			}
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price span {
+				display: inline-block;
+			}
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price span > label {
+				margin-left: 15px;
+				margin-right: 5px;
+				padding: 2px 5px;
+				color: #fff;
+				font-style: normal;
+				font-weight: normal;
+			}
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price span label.wwcAmzAff-price-regular {
+				background-color: #1abc9c;
+			}
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price span label.wwcAmzAff-price-sale {
+				background-color: #3498db;
+			}
+			#wwcAmzAffPriceSelect ul li .wwcAmzAff-priceselect-price span input[type="radio"] {
+			}

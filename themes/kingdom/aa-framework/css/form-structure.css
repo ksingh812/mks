@@ -1,0 +1,224 @@
+.kingdom-form .kingdom-button-row:after, .kingdom-form .kingdom-form-row:after, .kingdom-form:after, .kingdom-form-item:after, .kingdom-form ul.kingdom-form-list:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+* html .kingdom-button-row, * html .kingdom-form-row, * html .kingdom-form, * html .kingdom-form-item, * html .kingdom-form ul.kingdom-form-list {
+	height: 1%
+}
+.kingdom-form .kingdom-form-row {
+	padding: 23px 16px;
+	display: block;
+	border-bottom: 1px solid #f2f2f2
+}
+.kingdom-form .kingdom-form-row:last-child {
+	border-bottom: 0
+}
+.kingdom-form .kingdom-button-row {
+	background-color: #e5e9ea;
+	border-top: 1px solid #dddddd;
+	margin: 0;
+	padding: 12px;
+	margin-top: -1px;
+	text-align: right;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,1)
+}
+.kingdom-form .kingdom-form-col-1-8 label, .kingdom-form .kingdom-form-col-2-8 label, .kingdom-form .kingdom-form-col-3-8 label, .kingdom-form .kingdom-form-col-4-8 label, .kingdom-form .kingdom-form-col-5-8 label, .kingdom-form .kingdom-form-col-6-8 label, .kingdom-form .kingdom-form-col-7-8 label, .kingdom-form .kingdom-form-col-8-8 label {
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.kingdom-form .kingdom-form-col-1-8, .kingdom-form .kingdom-form-col-2-8, .kingdom-form .kingdom-form-col-3-8, .kingdom-form .kingdom-form-col-4-8, .kingdom-form .kingdom-form-col-5-8, .kingdom-form .kingdom-form-col-6-8, .kingdom-form .kingdom-form-col-7-8, .kingdom-form .kingdom-form-col-8-8 {
+	float: left;
+	padding: 0 .5%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box
+}
+.kingdom-form .kingdom-form-col-1-8.alpha, .kingdom-form .kingdom-form-col-2-8.alpha, .kingdom-form .kingdom-form-col-3-8.alpha, .kingdom-form .kingdom-form-col-4-8.alpha, .kingdom-form .kingdom-form-col-5-8.alpha, .kingdom-form .kingdom-form-col-6-8.alpha, .kingdom-form .kingdom-form-col-7-8.alpha, .kingdom-form .kingdom-form-col-8-8.alpha {
+	padding-left: 0;
+	clear: left
+}
+.kingdom-form .kingdom-form-col-1-8.omega, .kingdom-form .kingdom-form-col-2-8.omega, .kingdom-form .kingdom-form-col-3-8.omega, .kingdom-form .kingdom-form-col-4-8.omega, .kingdom-form .kingdom-form-col-5-8.omega, .kingdom-form .kingdom-form-col-6-8.omega, .kingdom-form .kingdom-form-col-7-8.omega, .kingdom-form .kingdom-form-col-8-8.omega {
+	padding-right: 0;
+	clear: right
+}
+.kingdom-form .kingdom-form-col-1-8 {
+	width: 12.5%
+}
+.kingdom-form .kingdom-form-col-2-8 {
+	width: 25%
+}
+.kingdom-form .kingdom-form-col-3-8 {
+	width: 37.5%
+}
+.kingdom-form .kingdom-form-col-4-8 {
+	width: 50%
+}
+.kingdom-form .kingdom-form-col-5-8 {
+	width: 62.5%
+}
+.kingdom-form .kingdom-form-col-6-8 {
+	width: 75%
+}
+.kingdom-form .kingdom-form-col-7-8 {
+	width: 87.5%
+}
+.kingdom-form .kingdom-form-col-8-8 {
+	width: 100%
+}
+.kingdom-form ul.kingdom-form-list {
+	display: block;
+	width: 100% !important
+}
+.kingdom-form ul.kingdom-form-list.inline {
+	margin-bottom: 0
+}
+.kingdom-form ul.kingdom-form-list, .kingdom-form ul.kingdom-form-list li {
+	margin: 0;
+	line-height: normal;
+	list-style: none
+}
+.kingdom-form ul.kingdom-form-list {
+	margin-bottom: 4px
+}
+.kingdom-form ul.kingdom-form-list li {
+	margin-bottom: 4px
+}
+.kingdom-form ul.kingdom-form-list li:last-child {
+	margin: 0
+}
+.kingdom-form ul.kingdom-form-list.inline li {
+	float: left;
+	margin: 5px 10px 0 0
+}
+.kingdom-form ul.kingdom-form-list li input, .kingdom-form ul.kingdom-form-list li label {
+	float: none !important;
+	padding: 0;
+	margin: 0 2px 0 0;
+	width: auto !important;
+	display: inline !important;
+	vertical-align: middle !important
+}
+.kingdom-form label {
+	cursor: pointer;
+	display: block
+}
+.kingdom-form label .required {
+	color: #f00
+}
+.kingdom-form fieldset {
+	margin-bottom: 0;
+	border-top: 1px solid #d3d3d3
+}
+.kingdom-form fieldset legend {
+	padding: 4px 6px;
+	margin: 0 10px;
+	background-color: #fafafa;
+	border: 1px solid #d3d3d3
+}
+.kingdom-form .kingdom-form-item .errorMessage, .kingdom-form .kingdom-form-item label.error {
+	display: block;
+	color: #d44d24;
+	font-size: 11px;
+	width: 100% !important;
+	margin-top: 1px;
+	padding: 0 !important
+}
+.kingdom-form .kingdom-form-item .formNote {
+	display: block;
+	color: #b9b9b9;
+	font-size: 11px;
+	margin-bottom: 1px;
+	font-style: italic;
+	margin-top: -17px;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.kingdom-form .kingdom-form-item a.formNote {
+	color: #73991f
+}
+.kingdom-form .kingdom-form-item .formNote.left {
+	text-align: left
+}
+.kingdom-form .kingdom-form-row .kingdom-form-item {
+	position: relative
+}
+.kingdom-form .kingdom-form-row .kingdom-form-item > *, .kingdom-form .kingdom-form-row .kingdom-form-item.default > * {
+	width: 70%
+}
+.kingdom-form .kingdom-form-row .kingdom-form-item.small > * {
+	width: 35%
+}
+.kingdom-form .kingdom-form-row .kingdom-form-item.large > * {
+	width: 100%
+}
+.kingdom-form .kingdom-form-row, .kingdom-form .kingdom-form-inline .kingdom-form-row, .kingdom-form .kingdom-form-row.kingdom-form-inline {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.kingdom-form .kingdom-form-row label, .kingdom-form .kingdom-form-inline .kingdom-form-row label, .kingdom-form .kingdom-form-row.kingdom-form-inline label {
+	float: left;
+	width: 180px;
+	padding: 6px 0
+}
+.kingdom-form .kingdom-form-row .kingdom-form-item, .kingdom-form .kingdom-form-inline .kingdom-form-row .kingdom-form-item, .kingdom-form .kingdom-form-row.kingdom-form-inline .kingdom-form-item {
+	margin-left: 180px;
+}
+.kingdom-form .kingdom-form-block .kingdom-form-row, .kingdom-form .kingdom-form-row.kingdom-form-block {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.kingdom-form .kingdom-form-block .kingdom-form-row label, .kingdom-form .kingdom-form-row.kingdom-form-block label {
+	float: none;
+	width: auto;
+	display: block;
+	padding: 0 0 6px 0
+}
+.kingdom-form .kingdom-form-block .kingdom-form-row .kingdom-form-item, .kingdom-form .kingdom-form-row.kingdom-form-block .kingdom-form-item {
+	margin: 0;
+	display: block
+}
+@media only screen and (max-width: 768px) {
+	.kingdom-form .kingdom-form-row label, .kingdom-form .kingdom-form-inline .kingdom-form-row label, .kingdom-form .kingdom-form-row.kingdom-form-inline label {
+		clear: both;
+		float: none;
+		width: auto;
+		padding: 0 0 6px 0
+	}
+	.kingdom-form .kingdom-form-row .kingdom-form-item, .kingdom-form .kingdom-form-inline .kingdom-form-row .kingdom-form-item, .kingdom-form .kingdom-form-row.kingdom-form-inline .kingdom-form-item {
+		clear: both;
+		float: none;
+		margin: 0
+	}
+	.kingdom-form .kingdom-form-item .formNote {
+		text-align: left;
+		margin-top: auto
+	}
+}
+@media only screen and (max-width: 480px) {
+	.kingdom-form .kingdom-form-row {
+		padding: 12px
+	}
+	.kingdom-form .kingdom-button-row {
+		padding: 8px
+	}
+	.kingdom-form .kingdom-form-item .errorMessage, .kingdom-form .kingdom-form-item label.error {
+		margin: 1px 0 0 0
+	}
+}

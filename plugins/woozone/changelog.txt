@@ -1,0 +1,147 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## [8.4.1.3]
+- added "Close button" to the 'Install default config' message (solved the bug which exists in the version 8.4.1.2 for this close button)
+- solved bug: amazon config / plugin setup tab / option "Show buy url as Amazon url" set on "Yes" changes the link on the woocommerce product page, but not in the product in a post widget.
+- solved bug regardind the cross sell (Frequently bought together box from frontend product page) prices and currency symbol
+
+## [8.4.1.2] - 26.01.2016
+- solved the "Warning: Illegal string offset 'request_amazon'..." issue
+- added dissmiss button for the default install bar
+
+## [8.4.1.1] - 19.01.2016
+- solved the bug "checkout redirect to amazon not working" which occures after woocommerce 2.5.0 update
+
+## [8.4.1] - 12.01.2016
+- solved bug: the amazon config settings were overwritten by some default settings when updating to plugin version 8.4 
+- solved request: "as of" appears now only once alongside the product price
+
+## [8.4] - 14.12.2015
+- solved bug: products synchronization & stats interface breaks on too many products in database - now the interface have a pagination system
+- update: AA-Team amazon config keys are set by default in "modules/setup_backup/default-setup.json"; try to generate your own keys after you make some tests with the plugin using AA-Team default keys
+
+## 03.11.2015
+- solved bug: "as of" missing for new imported products (bug generated in case the product wasn't synced at least once)
+
+## 21.10.2015
+- Insane Mode module/ added "check all" selection for products loaded in queue!
+- solved bug: "Request-URI too long" which occured on wp admin panel / products list section
+- added the PSP "Modules Manager" module version (with multiple modules activate/deactivate operation)
+- solved bug: which occured when importing variable products with default status = draft => the variation were not available and the product become "This product is currently out of stock and unavailable."
+- solved bug for product attributes: for example when in frontend an attribute like size had only one value (like "one size") the dropdown didn't have any value!
+
+## [8.3] - 18.09.2015
+- added Amazon API access for Mexico, Brazil (Affiliate IDs configurable in the Amazon config module)
+
+## [8.2.2] - 26.08.2015 
+- Fixed "Import Insane Mode" bug:
+	- when importing products, categories from amazon are not imported in website
+	- added new option "Fix Product Attributes (woocommerce 2.4 update)" on Amazon config / Bug Fixes - need to be run for products already existing in website database
+- Fixed "Variations" not displayed anymore bug: for variable products
+
+## [8.2.1] - 30.06.2015
+- Fixed issue for items with multiple "Reviews".
+
+## [8.2] - 29.06.2015
+- Added new import module called Insane Mode - this allows you to import 50 products at once per general search and 100 products at once per categories / subcategories
+
+## [8.1.3] - 29.05.2015
+### Fixed
+- variable products "Buy at Amazon" button bug: added the product to cart even if the product should be redirected to amazon instead
+
+## [8.1.3] - 28.05.2015
+### Fixed
+- Content Spinner not working on some servers when using WP_filesystem. Try to get treasure file with php native function
+
+## [8.1.3] - 05.05.2015
+### Changed
+- Already imported function now checks for postmeta "_amzASIN" only on posts that have post_type "product" or "product_variation"
+- Tool "Clean Orphaned AMZ Meta" now also deletes "_amzASIN" from postmeta if assigned to invalid post types. Post Types taken into consideration are only "product" and "product_variation"
+- Product "As of" date & time localization using wordpress admin selected ones (date & time format)
+
+### Fixed
+amzStore_bulk_wp_exist_post_by_args - checks only posts that have post_type "product" or "product_variation" 
+
+## 22.04.2015
+- fixed bug: when importing a product, if a product has variations, but don't have an associated feature image, then the first image found from the variations array, will be used  
+
+## 10.04.2015
+- fixed bug: product description loose [gallery] when updating: if you choose to update product description in sync settings, then
+the [gallery] shortcode which contains the product images, will be lost after update!
+- fixed bug: product short description cand be updated at synchronization!  
+
+## V 8.1.2 - 27.03.2015
+- bug fixes on cronjob products synchronization (bug: sync cycle run once but halted after)
+- fix "www.amazon./gp/aws/cart/add.html missing domain" issue
+- fix "when product has only one variation" issue - with variation attributes
+
+## 25.03.2015
+added new module for reporting - to be send via email
+
+## 23.03.2015
+added new option in amazon config module: "Button buy text" to set globally the button buy text for your all your amazon products
+
+## 13.03.2015
+fix on last sync date in product details page - as of date was inccorect and was not reflecting the last update date
+
+## 11.03.2015
+Bugfixes on cronjob
+
+## 06.03.2015
+### Changed
+- new module "Plugin Cronjobs"
+	- here you can activate or de-activate the cronjobs associated with our plugin (see documentation for future details)
+- re-designed and greatly improved module "Synchronization log" using the "Plugin Cronjobs" functionality also
+- re-designed and greatly improved module "Products stats" based on "Synchronization log" interface
+
+## 03.03.2015
+### Changed
+- Fixed tool "Clean Orphaned AMZ Meta".
+
+## 20.02.2015
+### Added
+- On Amazon Config save: Check for and remove mistake in keys after copy/paste them from Amazon
+
+## 17.02.2015
+### Changed 
+- Fix, configuration problem with special character: "="
+
+## 11.02.2015
+### Added 
+- New option to enable/disable product short description on import
+
+## 09.02.2015
+## Changed
+- Check if the product have an ASIN meta assigned to it and then display it in the price fix ajax table
+
+## 05.02.2015
+### Added 
+- New option to create only parent categories from Amazon on import instead of the whole category tree
+
+## 04.02.2015
+## Changed
+- Fixed the wordpress menu checkbox flicker when asigning a menu in wordpress admin
+- Fixed the auto-refresh if trying to bulk edit woocommerce products
+
+## 30.01.2015
+## Changed
+- Fixed the CSV bulk import to user specified-category 
+
+### Added
+## 29.01.2015
+- Autotrim whitespaces on inputs in the Amazon Config area
+
+## [7.0.6] - 28.01.2015
+
+## 28.01.2015
+## Changed
+- Hierarchical list of categories for Advanced Search & CSV import module Import In option.
+
+## Changed
+- Import also "Sales Rank" attribute to products from Amazon
+
+## [7.0.5] - 26.01.2015
+### Added
+- Frontend: "Sort by Sales Rank" option
+- Synchronize option - "Sales Rank"

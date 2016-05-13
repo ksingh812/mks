@@ -1,0 +1,86 @@
+{
+    "kingdom_module_bulk_products_colors_check":"true",
+    "kingdom_module_partners":"true",
+    "kingdom_module_slideshow":"true",
+    "kingdom_module_widgets_manager":"true",
+    "kingdom_config":{
+        "responsiveness":"true",
+        "primary_color" : "#C5403F",
+        "secondary_color" : "#2980B9",
+        "menu_normal_state_color" : "#2c3e50",
+        "menu_hover_state_color" : "#c0392b",
+        "menu_background_color" : "#FFFFFF",
+        "border_radius" : "yes",
+        "website_main_font" : "Open Sans",
+        "menu_font" : "Open Sans",
+        "main_menu_font_size" : "18",
+        "main_menu_submenu_font_size" : "14",
+        "main_menu_vertical_spacing" : "20",
+        "main_menu_horizontal_spacing" : "20",
+        "main_menu_submenu_top_margin" : "40",
+        "main_content_font_size" : "14",
+        "h1-font-size" : "28",
+        "h2-font-size" : "18",
+        "products_per_page" : "12",
+        "enable_star_rating" : "true",
+        "enable_product_general_description" : "true",
+        "enable_product_description_tab" : "true",
+        "enable_product_in_category" : "true",
+        "enable_product_tags" : "true",
+        "enable_partners_module" : "true",
+        "phone_support":"24\/7 Phone support: 0800 556-880",
+        "footer_copyright":"\u00a9 Copyright 2015 <a href=\\\"http:\/\/aa-team.com\\\">AA-Team<\/a>. All rights reserved.",
+        "facebook_url":"#",
+        "linkedin_url":"#",
+        "youtube_url":"#",
+        "twitter_url":"#",
+        "google_url":"#",
+        "pinterest_url":"#",
+        "amazon_url":"#",
+        "discover_url":"#",
+        "money_url":"#",
+        "visa_url":"#",
+        "paypal_url":"#",
+        "mastercard_url":"#"
+    },
+    "kingdom_ds_ceb273360e2ce423971abf04b9fb5353":{
+        "title":"Shop Sidebar",
+        "settings":{
+            "position":"right",
+            "conditions":[
+                "post-4",
+                "post-type-archive-product",
+                "post-type-product"
+            ]
+        }
+    },
+    "kingdom_ds_8fb1096a6b54a26a9f32e9eed0e6de41":{
+        "title":"Blog Sidebar",
+        "settings":{
+            "position":"right",
+            "conditions":[
+                "post-type-post"
+            ]
+        }
+    },
+    "kingdom_dynamic_sidebars":{
+        "1":{
+            "title":"Shop Sidebar"
+        },
+        "2":{
+            "title":"Blog Sidebar"
+        },
+        "3":{
+            "title":"Contact"
+        }
+    },
+    "kingdom_widget_color_filter":"true",
+    "kingdom_color_config":{
+        "return_colors_nr":"1",
+        "reduce_brightness":"1",
+        "reduce_gradients":"1",
+        "delta":"5",
+        "check_on":"200X200",
+        "colors_name":"Beige => 182,174,148\r\nBlack => 0,0,0\r\nBlue =>\t31,83,182\r\nBrown => 88,61,33\r\nGray => 119,119,119\r\nGreen => 86,159,42\r\nOrange => 207,121,7\r\nPink => 213,3,110\r\nPurple => 123,41,168\r\nRed => 178,29,15\r\nTurquoise => 24,197,196\r\nYellow => 200,165,0"
+    }
+}
