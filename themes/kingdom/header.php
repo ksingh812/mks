@@ -76,13 +76,13 @@ global $kingdom;
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="kd_logo">
-						<a href="<?php echo home_url();?>">
+						<a href="<?php echo home_url();?>"><h1 style="text-align:center;">Mechanical Keyboard <br/> Shop</h1>
 							<?php 
-							if( !isset($kingdom->coreFunctions->settings['layout']['logo']) || empty($kingdom->coreFunctions->settings['layout']['logo']) ){
-								echo '<img src="' . ( $kingdom->cfg['paths']['theme_dir_url'] ) . '/images/kd_logo.png">';
-							}else{
-								echo wp_get_attachment_image( $kingdom->coreFunctions->settings['layout']['logo'], 'full' );
-							}
+							//if( !isset($kingdom->coreFunctions->settings['layout']['logo']) || empty($kingdom->coreFunctions->settings['layout']['logo']) ){
+							//	echo '<img src="' . ( $kingdom->cfg['paths']['theme_dir_url'] ) . '/images/kd_logo.png">';
+							//}else{
+							//	echo wp_get_attachment_image( $kingdom->coreFunctions->settings['layout']['logo'], 'full' );
+							//}
 							?>
 						</a>
 					</div>
